@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   # Configura o box (imagem) do Ubuntu 21.04
-  config.vm.box = "ubuntu/21.04"
+  config.vm.box = "ubuntu/focal64"
 
   # Configura a quantidade de memória RAM e processadores
   config.vm.provider "virtualbox" do |vb|
